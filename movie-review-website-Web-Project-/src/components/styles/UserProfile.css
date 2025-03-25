@@ -1,0 +1,43 @@
+/* userimg-item */
+.UserProfile {
+    padding: 20px;
+    color: #f0f0f0;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.UserProfile h2 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.userimg-item {
+    background-color: #333;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 10px;
+    overflow: hidden; 
+    object-fit: cover
+}
+
+.logout-btn {
+    background-color: #f63b3b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.logout-btn:hover{
+    background-color: #f76767;
+}

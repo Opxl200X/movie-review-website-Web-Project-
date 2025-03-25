@@ -1,0 +1,33 @@
+/* client/src/components/styles/InTheater.css */
+.in-theater {
+    padding: 20px;
+    color: #ff3333;
+}
+
+.in-theater h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.theater-movies {
+    display: flex;
+    align-items: center;
+}
+
+.movie-cards {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.nav-button {
+    background: none;
+    color: #00aaff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+.theater-movies {
+    display: flex;
+    justify-content: center;
+}

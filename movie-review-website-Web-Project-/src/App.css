@@ -1,0 +1,147 @@
+
+/* สไตล์สำหรับแถบเนวิเกชัน */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.navbar-logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-menu a:hover {
+  color: #00aaff;
+}
+
+/* สไตล์สำหรับส่วน Trending */
+.trending-section {
+  margin-top: 20px;
+}
+
+.trending-title {
+  font-size: 28px;
+  color: #ff4c4c;
+  margin-bottom: 15px;
+}
+
+.trending-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.trending-card {
+  background-color: #444;
+  width: 80%;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.trending-arrow {
+  font-size: 30px;
+  cursor: pointer;
+  color: #00aaff;
+}
+
+.trending-arrow:hover {
+  color: #008ecc;
+}
+
+/* สไตล์สำหรับส่วน In Theater */
+.in-theater-section {
+  margin-top: 30px;
+}
+
+.in-theater-title {
+  font-size: 24px;
+  color: #ff4c4c;
+  margin-bottom: 15px;
+}
+
+.in-theater-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.theater-card {
+  width: 200px;
+  background-color: #333;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.theater-card h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.theater-card .score {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.theater-card .add-button {
+  background-color: #00aaff;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.theater-card .add-button:hover {
+  background-color: #008ecc;
+}
+
+/* สไตล์สำหรับส่วน Playlist */
+.playlist-button {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.playlist-button:hover {
+  background-color: #008ecc;
+}

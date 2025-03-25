@@ -1,0 +1,30 @@
+/* client/src/components/styles/InTheater.css */
+.Toprate {
+    padding: 20px;
+    color: #ff3333;
+}
+
+.Toprate h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.Top-movies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-cards {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.nav-button {
+    background: none;
+    color: #00aaff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.footer-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+}
+
+.footer-social {
+   ul {list-style: none;}
+}
